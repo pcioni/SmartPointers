@@ -2,7 +2,6 @@
 
 // ==============================================================================
 // basic auto pointer implementation
-// see also http://ootips.org/yonat/4dev/smart-pointers.html
 
 template <class T>
 class dsAutoPtr {
