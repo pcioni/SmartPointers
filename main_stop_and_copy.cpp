@@ -35,24 +35,3 @@ int main() {
   m.root = m.my_new('k',m.root,MY_NULL);
 
   std::cout << std::endl << "after adding 3 more cells:" << std::endl << m;
-
-
-  // Walk through the Stop And Copy garbage collection algorithm on
-  // the memory at this point in the program.  Draw a pencil & paper
-  // diagram to show your work.
-
-
-  // UNCOMMENT THESE LINES AFTER YOU FINISH CHECKPOINT 1 (to check your work)
-  /*
-  m.root = m.my_new('l',m.root,MY_NULL);
-  std::cout << std::endl << "adding another cell triggers automatic garbage collection:" << std::endl << m;
-
-  // "forget" the root pointer
-  m.root = MY_NULL;
-  m.collect_garbage();
-  std::cout << std::endl << "root set to null & forced garbage collection:" << std::endl << m;
-  */
-
-}
-
-// ==============================================================================
